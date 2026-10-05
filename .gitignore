@@ -4,3 +4,4 @@ __pycache__/
 # never commit personal data
 profile*.json
 !india-tax-consultant/scripts/example_profile.json
+*.bundle
