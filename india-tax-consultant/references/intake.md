@@ -15,6 +15,8 @@ Collect everything below. Ask in one consolidated list, grouped by section; skip
 | Foreign brokerage statements | RSU/ESPP vests, sales, dividends, year-end values, highest values | E*Trade, Schwab, Fidelity, etc. |
 | Demat holdings statement | Direct equity, bonds, SGBs | NSDL/CDSL CAS |
 | EPF passbook, PPF, NPS statement | Balances and contributions | EPFO, bank, CRA |
+| Bank statements (last 6–12 months, all accounts) | Real monthly spending (sizes the emergency fund and investible surplus), SIP debits, EMIs, interest credits to reconcile with AIS, large or cash transactions that may appear in AIS | Net banking (PDF/CSV) |
+| Credit card statements (last 3–6 months) | Spending, revolving balances (high-cost debt) | Card issuer |
 | Loan statements | Outstanding, rate, EMI, interest/principal split for the year | Lenders |
 | Insurance schedules | Term cover, health cover, riders, premiums, renewal dates | Insurers / employer |
 | Last year's ITR (JSON or PDF) | Carried-forward losses, regime history, form used | E-filing portal |
