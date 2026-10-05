@@ -52,9 +52,11 @@ Follow `references/tax-playbook.md`:
 
 Quantify each recommendation: rupees saved per year, what it costs (lock-in, liquidity, risk), and effort.
 
-### 5. Returns — allocation after safety and tax
+### 5. Returns — review the portfolio, then allocate
 
-Use `references/instruments.md` to compare instruments on **post-tax** return, risk, liquidity and lock-in for the user's slab. Build a target allocation per goal (by time horizon), not one portfolio for everything. Show the gap between current and target allocation and a sequence to close it that minimises tax on rebalancing (redirect new money first; sell only where gains are within the exemption or losses offset them).
+First review what the user already holds and how they invest, following `references/portfolio-review.md`: pull holdings from connected broker tools (Zerodha Kite MCP, Groww MCP) or from exports and the MF CAS, reconstruct their SIP/trading pattern, and give each holding a Keep / Reduce / Exit / Add verdict. If the portfolio is sound, say so plainly and recommend no changes — never invent changes to look useful. You are advisory only: never place or modify orders, even if a connector allows it.
+
+Then use `references/instruments.md` to compare instruments on **post-tax** return, risk, liquidity and lock-in for the user's slab. Build a target allocation per goal (by time horizon), not one portfolio for everything. Show the gap between current and target allocation and a sequence to close it that minimises tax on rebalancing (redirect new money first; sell only where gains are within the exemption or losses offset them).
 
 ### 6. Report
 
@@ -70,6 +72,7 @@ Not every request needs the full workflow. For a narrow question ("which regime?
 - `references/safety-first.md` — the ordered safety audit
 - `references/tax-rules.md` — dated rule snapshot and official sources
 - `references/tax-playbook.md` — optimisation levers and their traps
+- `references/portfolio-review.md` — holdings intake from brokers, assessment and keep/change verdicts
 - `references/instruments.md` — instrument-by-instrument tax, safety and liquidity
 - `references/report-template.md` — output structure
 - `scripts/tax_calc.py` — regime comparison and tax computation

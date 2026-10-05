@@ -20,6 +20,7 @@ india-tax-consultant/
 │   ├── safety-first.md           # ordered safety audit
 │   ├── tax-rules.md              # dated rule snapshot + official sources
 │   ├── tax-playbook.md           # optimisation levers and traps
+│   ├── portfolio-review.md       # broker holdings → keep/change verdicts
 │   ├── instruments.md            # tax/safety/liquidity of each instrument
 │   └── report-template.md        # output format
 └── scripts/
