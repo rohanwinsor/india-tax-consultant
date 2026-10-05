@@ -1,0 +1,22 @@
+{
+  "_comment": "Annual rupees for the tax year. salary_gross = taxable salary before any exemption, EXCLUDING employer NPS (enter that separately). other_income_slab = interest, dividends, net rental income, slab-taxed gains (debt MFs, short-term foreign shares/RSU sales), freelance income. ltcg_equity = gross listed-equity LTCG before the annual exemption. ltcg_other = 12.5% LTCG (foreign shares held >24 months, gold, property). old_regime block is ignored for the new regime.",
+  "age": 28,
+  "salary_gross": 3500000,
+  "basic_salary": 1400000,
+  "employer_nps": 140000,
+  "professional_tax": 2500,
+  "other_income_slab": 60000,
+  "stcg_equity": 0,
+  "ltcg_equity": 180000,
+  "ltcg_other": 0,
+  "vda_gains": 0,
+  "old_regime": {
+    "hra_exempt": 300000,
+    "other_salary_exemptions": 0,
+    "80C": 150000,
+    "80CCD1B": 50000,
+    "80D": 25000,
+    "home_loan_interest_self_occupied": 0,
+    "other_deductions": 0
+  }
+}

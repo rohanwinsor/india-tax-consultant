@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.DS_Store
+# never commit personal data
+profile*.json
+!india-tax-consultant/scripts/example_profile.json

@@ -1,0 +1,33 @@
+{
+  "tax_year": "2026-27",
+  "snapshot_date": "2026-10-05",
+  "note": "Verify every figure against incometaxindia.gov.in before relying on it. Edit this file (or copy it for a new year) when a figure changes.",
+  "cess_rate": 0.04,
+  "new": {
+    "slabs": [[400000, 0.0], [800000, 0.05], [1200000, 0.10], [1600000, 0.15], [2000000, 0.20], [2400000, 0.25], [null, 0.30]],
+    "standard_deduction": 75000,
+    "rebate": {"income_limit": 1200000, "max_rebate": 60000, "marginal_relief": true, "applies_to_special_rate_income": false},
+    "employer_nps_pct_of_basic": 0.14,
+    "surcharge": [[5000000, 0.10], [10000000, 0.15], [20000000, 0.25]]
+  },
+  "old": {
+    "slabs_by_age": {
+      "below_60": [[250000, 0.0], [500000, 0.05], [1000000, 0.20], [null, 0.30]],
+      "60_to_79": [[300000, 0.0], [500000, 0.05], [1000000, 0.20], [null, 0.30]],
+      "80_plus": [[500000, 0.0], [1000000, 0.20], [null, 0.30]]
+    },
+    "standard_deduction": 50000,
+    "rebate": {"income_limit": 500000, "max_rebate": 12500, "marginal_relief": false, "applies_to_stcg_equity": true, "applies_to_ltcg_equity": false},
+    "employer_nps_pct_of_basic": 0.10,
+    "caps": {"80C": 150000, "80CCD1B": 50000, "24b_self_occupied": 200000},
+    "surcharge": [[5000000, 0.10], [10000000, 0.15], [20000000, 0.25], [50000000, 0.37]]
+  },
+  "special_rates": {
+    "stcg_equity": 0.20,
+    "ltcg_equity": 0.125,
+    "ltcg_equity_exemption": 125000,
+    "ltcg_other": 0.125,
+    "vda": 0.30,
+    "surcharge_cap_on_equity_gains_and_dividends": 0.15
+  }
+}
